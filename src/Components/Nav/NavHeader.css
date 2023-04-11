@@ -1,0 +1,22 @@
+.title-nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.t{
+    margin-right: 20px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.btn{
+    color: rgb(67, 0, 94);
+}
+.title-color{
+    color: aliceblue;
+   
+}

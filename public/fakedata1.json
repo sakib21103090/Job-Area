@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "categoryId": "a",
+      "categoryName": "IT management",
+      "categoryLogo": "https://images.unsplash.com/photo-1666470956471-30178dbe98ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "jobsAvailable": 37
+    },
+    {
+      "categoryId": "b",
+      "categoryName": "Banking",
+      "categoryLogo": "https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "jobsAvailable": 145
+    },
+    {
+      "categoryId": "c",
+      "categoryName": "business",
+      "categoryLogo": "https://images.unsplash.com/photo-1664575602276-acd073f104c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "jobsAvailable": 65
+    },
+    {
+      "categoryId": "d",
+      "categoryName": "Hotel Management",
+      "categoryLogo": "https://images.unsplash.com/photo-1540304453527-62f979142a17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "jobsAvailable": 456
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "companyName": "Google",
+      "category": "IT",
+      "companyLogo": "https://i.ibb.co/JCcG8tz/google-1-1-1.png",
+      "jobTitle": "Junior Frontend Engineer",
+      "isRemote": true,
+      "location": "Remote",
+      "jobType": "Full-time",
+      "salary": 3000,
+      "jobDescription": "They are often in charge of bringing mock-ups to life in a beautiful and consistent manner, optimizing page loading time, communicating with back-end developers for information exchange across the application and much more! ",
+      "jobResponsibility": "Below are some of the responsibilities a front-end developer is expected to assume: Build web applications with web development best practices. Transform app designs into front-end code with HTML, CSS, and JavaScript. Work with back-end developers to integrate UI components with APIs and databases.",
+      "education": "BSC in CSE",
+      "exeperiances": 3,
+      "phone": 987654532,
+      "email": "google@gmail.com"
+    },
+    {
+      "id": 2,
+      "companyName": "Microsoft",
+      "category": "IT",
+      "companyLogo": "https://i.ibb.co/64BST8c/image.png",
+      "jobTitle": "Software Developer",
+      "isRemote": true,
+      "location": "US",
+      "jobType": "Full-time",
+      "salary": 2500,
+      "jobDescription": "A Microsoft developer is a computer programmer or software engineer who has earned certification through Microsoft. Computer programmers take the software developed by software engineers and write the instructional code for computer systems. They may also be tasked with adding to programs.",
+      "jobResponsibility": "Microsoft Certified Professional Developers is to help organizations solve problems related to Microsoft technologies. They must know how to use development tools such as Visual Studio, SharePoint and . NET Framework.",
+      "education": "BSC in CSE",
+      "exeperiances": 4,
+      "phone": 987654556,
+      "email": "microsoft@gmail.com"
+    },
+    {
+      "id": 3,
+      "companyName": "IDCOL",
+      "category": "Banking",
+      "companyLogo": "https://i.ibb.co/024v7pr/image.png",
+      "jobTitle": "Senior Assistant Vice President",
+      "isRemote": false,
+      "location": "Bangladesh",
+      "jobType": "Full-time",
+      "salary": 300,
+      "jobDescription": "Strong skills in word processing, spreadsheet and presentation software,Minimum 09 years relevant work experience for SAVP position or 11 years relevant work experience for VP position in banks/financial institutions is required.",
+      "jobResponsibility": "Develop a strong pipeline of quality investment opportunities in the Infrastructure Finance sector.Develop innovative and appropriate financial structure,Participate in dealing, structuring and negotiation meetings to overcome impasses and finalize negotiations in transactions,Supervise and assist in preparation of financial, economic, legal and technical due diligence of Infrastructure Finance projects;",
+      "education": "MBA",
+      "exeperiances": 5,
+      "phone": 987654500,
+      "email": "IDCOL@gmail.com"
+    },
+    {
+      "id": 4,
+      "companyName": "Beauty Expert",
+      "category": "Beauty & care",
+      "companyLogo": "https://i.ibb.co/CK06yZ2/image.png",
+      "jobTitle": "Live From Bangladesh Ltd.",
+      "isRemote": false,
+      "location": "Mirpur",
+      "jobType": "Full-time",
+      "salary": 3000,
+      "jobDescription": "Choice Legacy is a new wing of Live from Bangladesh Ltd. & a premium destination for all beauty & wellness solutions. It is a customized beauty solution and wellness content program that help one to shine their inner beauty. ",
+      "jobResponsibility": "Extensive knowledge of makeup, hair care, and skincare products (Up-to-date with cosmetic lines and beauty trends).Hands-on experience with makeup application techniques.Proven work experience as a Beauty Specialist, Beauty Advisor, or related jobs for over 3 years.",
+      "education": "Preferred Professional Certification: Cosmetology",
+      "exeperiances": 5,
+      "phone": 987654501,
+      "email": "gbeautyexpert@gmail.com"
+    },
+    {
+      "id": 5,
+      "companyName": "Manzo Restaurant",
+      "category": "Hotel Management",
+      "companyLogo": "https://i.ibb.co/x56PqPx/restaurant-logo-design-260nw-1132043885.webp",
+      "jobTitle": "COMMIS",
+      "isRemote": false,
+      "location": "Dhaka (Gulshan)",
+      "jobType": "Full-time",
+      "salary": 1500,
+      "jobDescription": "To prepare, cook and serve food delegated as your responsibility, ensuring that the highest possible quality is maintained and that agreed standards for food preparation and presentation are met at all times under guidance from a senior chef",
+      "jobResponsibility": "To adhere to company procedures in regards to temperature checks, food labeling and dating, cleaning schedules and hygiene regulations at all times ensuring that all records of such are maintained To have an understanding of menu planning, the implementation of stock controls, the importance of good stock management, and how this enables the kitchen to meet gross profit",
+      "education": "Diploma in Hotel Management",
+      "exeperiances": 5,
+      "phone": 987604503,
+      "email": "manzorestaurant@gmail.com"
+    },
+    {
+      "id": 6,
+      "companyName": "Programming Hero",
+      "category": "IT",
+      "companyLogo": "https://i.ibb.co/TtBq48X/image.png",
+      "jobTitle": "Web Instructor",
+      "isRemote": true,
+      "location": "Remote",
+      "jobType": "Full-time",
+      "salary": 300,
+      "jobDescription": "If you enjoy teaching others.  Don't get tired after answering the same question 100 times.  You can keep a smile on your face even after solving other people's problems for three hours.  Then you can think of starting your career with Programming Hero web development course web instructor team.",
+      "jobResponsibility": "Answering the questions of students in our various groups as quickly as possible.Set up a one-to-one meet session with someone if needed.Organize three support sessions daily if two are needed.Explaining the inner cause of a problem beyond its solution.",
+      "education": "BSC in CSE",
+      "exeperiances": 0,
+      "phone": 987654538,
+      "email": "programminghero@gmail.com"
+    }
+  ]
+}
