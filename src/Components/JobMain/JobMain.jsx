@@ -9,7 +9,7 @@ const JobMain = () => {
     console.log(data);
     return (
         <div>
-            {/* <LoadData categories={data.categories} /> */}
+            <LoadData categories={data.categories} />
             
             <div>
             {/* <FeaturedJobs jobs={data.jobs} /> */}
