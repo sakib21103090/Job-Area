@@ -12,7 +12,7 @@ const JobMain = () => {
             <LoadData categories={data.categories} />
             
             <div>
-            {/* <FeaturedJobs jobs={data.jobs} /> */}
+            <FeaturedJobs jobs={data.jobs} />
             </div>
         </div>
     );
