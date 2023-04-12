@@ -16,7 +16,7 @@ else{
  return (
         <div className='d-flex justify-content-end py-3'>
             <Form.Select onChange={(e)=>handleChange(e.target.value)} className='w-25' aria-label="Default select example">
-      <option>Filter</option>
+      
       <option value="Remote">Remote</option>
       <option value="Full-time">Full-Time</option> 
     </Form.Select>

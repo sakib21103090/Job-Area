@@ -38,7 +38,7 @@ const JobDetail = () => {
              </div>
             <div className='style-card'>
           
-            <Card border="info" style={{ width: '26rem'  }&&{height:'29rem'}}>
+            <Card border="info" style={{ width: '26rem'}&&{height:'29rem'}}>
         <Card.Header className='text-center'> <strong> Job Details</strong></Card.Header>
         <Card.Body>
           <Card.Text>

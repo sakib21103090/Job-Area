@@ -1,11 +1,13 @@
 import React from "react";
 import {
-  AreaChart,
-  Area,
+  ComposedChart,
+  Line,
+  Bar,
   XAxis,
   YAxis,
   CartesianGrid,
-  Tooltip
+  Tooltip,
+  Legend
 } from "recharts";
 
 const Statistics = () => {
@@ -55,23 +57,25 @@ const Statistics = () => {
     return (
         <div>
             
-            <AreaChart
-      width={1000}
-      height={500}
+            <ComposedChart
+      width={800}
+      height={400}
       data={data}
       margin={{
-        top: 10,
-        right: 30,
-        left: 0,
-        bottom: 0
+        top: 20,
+        right: 20,
+        bottom: 20,
+        left: 20
       }}
     >
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
+      <CartesianGrid stroke="#f5f5f5" />
+      <XAxis dataKey="name" scale="band" />
       <YAxis />
       <Tooltip />
-      <Area type="monotone" dataKey="mark" stroke="#8884d8" fill="#8884d8" />
-    </AreaChart>
+      <Legend />
+      <Bar dataKey="mark" barSize={20} fill="#413ea0" />
+      <Line type="monotone" dataKey="mark" stroke="#ff7300" />
+    </ComposedChart>
         </div>
     );
 };

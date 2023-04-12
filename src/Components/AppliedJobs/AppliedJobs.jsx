@@ -10,8 +10,9 @@ import Button from 'react-bootstrap/Button';
 
 const AppliedJobs = () => {
     const appliedItems = JSON.parse(localStorage.getItem('applied'))
-    const data = useLoaderData();
-    const appliedJobs = data.jobs.filter(job=>appliedItems?.includes(job.id.toString())) || [];
+    const dataA = useLoaderData();
+    
+    const appliedJobs = dataA?.jobs?.filter(job=>appliedItems?.includes(job.id.toString())) || [];
     const [allJobs,setAllJobs] = useState(appliedJobs)
     const [filteredJobs,setFilteredJobs] = useState(appliedJobs)
     

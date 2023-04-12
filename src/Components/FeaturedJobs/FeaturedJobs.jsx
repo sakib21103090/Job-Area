@@ -53,7 +53,7 @@ const FeaturedJobs = ({jobs}) => {
             <div className="text-center">
                 <Button variant="info" className='text-center mx-auto '
                 onClick={handleSeeMore}
-                >{!seeAll?'See All Jobs':'See Less'}</Button>
+                >{!seeAll?'ShowAll':'Show'}</Button>
                 </div>
         </Container>
     </div>
