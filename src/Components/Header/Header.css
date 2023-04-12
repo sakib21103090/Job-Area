@@ -38,10 +38,15 @@ margin-right: 30px;
     margin-top: 50px;
    
    
+  
 
 }
 .img-size{
     width: 200px;
     height: 150px;
     margin-right: 10px;
+}
+.s-t{
+    margin-top: 20px;
+    background: #ffd2d2;
 }

@@ -35,7 +35,7 @@ const FeaturedJobs = ({jobs}) => {
                             className='p-2' />
                             <Card.Body>
                                 <Card.Title>{job.jobTitle}</Card.Title>
-                                <h3>{job.companyName} </h3>
+                                <h4>{job.companyName} </h4>
                                 <h5>  {  job.isRemote ? 'remote' : 'on-site' }</h5>
                                 <h6> {job.jobType}</h6>
                                 <h6> <span> { job.location }</span><span>{job.salary} </span></h6>
