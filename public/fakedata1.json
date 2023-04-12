@@ -36,12 +36,13 @@
       "location": "Remote",
       "jobType": "Full-time",
       "salary": 3000,
-      "jobDescription": "They are often in charge of bringing mock-ups to life in a beautiful and consistent manner, optimizing page loading time, communicating with back-end developers for information exchange across the application and much more! ",
+      "jobDescription": "A business group in Uganda including corporate giants such as Google says it opposes the country's anti-LGBTQ legislation, calling it “a concern for global businesses and investors operating or planning to invest” in the East African country ",
       "jobResponsibility": "Below are some of the responsibilities a front-end developer is expected to assume: Build web applications with web development best practices. Transform app designs into front-end code with HTML, CSS, and JavaScript. Work with back-end developers to integrate UI components with APIs and databases.",
       "education": "BSC in CSE",
       "exeperiances": 3,
       "phone": 987654532,
-      "email": "google@gmail.com"
+      "email": "google@gmail.com",
+      "Address": "Dhanmondi 32,  Dhaka, Bangladesh"
     },
     {
       "id": 2,
@@ -53,12 +54,14 @@
       "location": "US",
       "jobType": "Full-time",
       "salary": 2500,
-      "jobDescription": "A Microsoft developer is a computer programmer or software engineer who has earned certification through Microsoft. Computer programmers take the software developed by software engineers and write the instructional code for computer systems. They may also be tasked with adding to programs.",
+      "jobDescription": "Computers are actively learning about the world around them. AI is no longer the stuff of science fiction. It’s happening now. At Microsoft, we’re infusing artificial intelligence across everything we make in an effort to democratize AI and help solve society’s greatest challenges.",
       "jobResponsibility": "Microsoft Certified Professional Developers is to help organizations solve problems related to Microsoft technologies. They must know how to use development tools such as Visual Studio, SharePoint and . NET Framework.",
       "education": "BSC in CSE",
       "exeperiances": 4,
       "phone": 987654556,
-      "email": "microsoft@gmail.com"
+      "email": "microsoft@gmail.com",
+      "Address": "Dhanmondi 32,  Dhaka, Bangladesh"
+      
     },
     {
       "id": 3,
@@ -75,7 +78,8 @@
       "education": "MBA",
       "exeperiances": 5,
       "phone": 987654500,
-      "email": "IDCOL@gmail.com"
+      "email": "IDCOL@gmail.com",
+      "Address": "Uttara 7,  Dhaka, Bangladesh"
     },
     {
       "id": 4,
@@ -92,7 +96,8 @@
       "education": "Preferred Professional Certification: Cosmetology",
       "exeperiances": 5,
       "phone": 987654501,
-      "email": "gbeautyexpert@gmail.com"
+      "email": "gbeautyexpert@gmail.com",
+      "Address": "lalmatia 32,  Dhaka, Bangladesh"
     },
     {
       "id": 5,
@@ -109,7 +114,8 @@
       "education": "Diploma in Hotel Management",
       "exeperiances": 5,
       "phone": 987604503,
-      "email": "manzorestaurant@gmail.com"
+      "email": "manzorestaurant@gmail.com",
+      "Address": "bonani 34,  Dhaka, Bangladesh"
     },
     {
       "id": 6,
@@ -125,8 +131,9 @@
       "jobResponsibility": "Answering the questions of students in our various groups as quickly as possible.Set up a one-to-one meet session with someone if needed.Organize three support sessions daily if two are needed.Explaining the inner cause of a problem beyond its solution.",
       "education": "BSC in CSE",
       "exeperiances": 0,
-      "phone": 987654538,
-      "email": "programminghero@gmail.com"
+      "phone": 987654538888,
+      "email": "programminghero@gmail.com",
+      "Address": "badda,  Dhaka, Bangladesh"
     }
   ]
 }

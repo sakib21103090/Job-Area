@@ -4,6 +4,7 @@
     justify-content: space-between;
     justify-content: center;
     
+    
 }
 .image-style{
     width: 1000px;
@@ -36,5 +37,11 @@ margin-right: 30px;
     font-size: 30px;
     margin-top: 50px;
    
+   
 
+}
+.img-size{
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
 }

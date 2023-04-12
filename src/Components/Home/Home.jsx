@@ -1,20 +1,28 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
-import NavHeader from '../Nav/NavHeader';
-import Header from '../Header/Header';
-import JobMain from '../JobMain/JobMain';
 import './Home.css'
+import Header from '../Header/Header';
+import LoadData from '../Load/LoadData';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
+import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
+    const data = useLoaderData();
     return (
         <div>
             <div className='bg'>
-            <NavHeader></NavHeader>
+            
             <Header></Header>
             </div>
+             <div>
             
-            <Outlet></Outlet>
+            <LoadData categories={data.categories} />
+            
+            
+            <div>
+            <FeaturedJobs jobs={data.jobs} />
+            </div>
+        </div>
+           
         </div>
     );
 };

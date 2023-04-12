@@ -6,44 +6,51 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './Components/Home/Home';
-import JobMain from './Components/JobMain/JobMain';
+
 import Statistics from './Components/Statistics/Statistics';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blog from './Components/Blog/Blog';
-import FeaturedJobs from './Components/FeaturedJobs/FeaturedJobs';
+
+import MainHomePage from './Components/MainHomePage/MainHomePage';
+
+import JobDetail from './Components/JobDati/JobDetail';
+import Home from './Components/Home/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<Home/>,
+    element:<MainHomePage></MainHomePage>,
     children:[
       {
         path:'/',
-        element:<JobMain></JobMain>,
+        element:<Home></Home>,
         loader:() => fetch('fakedata1.json')
       },
-      // {
-      //   path:'/',
-      //   element:<FeaturedJobs></FeaturedJobs>,
-      //   loader:() => fetch('fakedata1.json')
-        
-      // },
+      {
+        path:'Job/:id',
+        element:<JobDetail></JobDetail>,
+       
+      },
+
+      {
+        path:'/Statistics',
+        element:<Statistics></Statistics>
+      },
+      {
+        path:'/AppliedJobs',
+        element:<AppliedJobs></AppliedJobs>,
+        loader:() => fetch('fakedata1.json')
+      },
+      {
+        path:'/Blog',
+        element:<Blog></Blog>
+      },
       
     ]
   },
-  {
-    path:'/Statistics',
-    element:<Statistics></Statistics>
-  },
-  {
-    path:'/AppliedJobs',
-    element:<AppliedJobs></AppliedJobs>
-  },
-  {
-    path:'/Blog',
-    element:<Blog></Blog>
-  },
+  
+ 
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -52,15 +59,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 
-// {
-//   categories.map(category=>
-      
-//       <div className='card'>
-//               <img src={category.categoryLogo} alt="" />
-//               <h3>{category.categoryName}</h3>
-//               <p>{category.jobsAvailable}</p>
-
-//           </div>
-      
-//       )
-// }
