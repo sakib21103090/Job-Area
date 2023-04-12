@@ -15,11 +15,13 @@ import MainHomePage from './Components/MainHomePage/MainHomePage';
 
 import JobDetail from './Components/JobDati/JobDetail';
 import Home from './Components/Home/Home';
+import Error from './Components/Error/Error';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element:<MainHomePage></MainHomePage>,
+    errorElement:<Error></Error>,
     children:[
       {
         path:'/',

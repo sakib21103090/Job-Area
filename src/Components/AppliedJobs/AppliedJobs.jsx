@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import JobFilter from './JobFilter';
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -42,7 +42,9 @@ const AppliedJobs = () => {
                 <p> <FontAwesomeIcon icon={faAddressBook} /> <strong>Address:</strong> {job.Address} </p>
                 </div>
                 <div className='m-style  align-items-center '>
-                <Button variant="info">View Details</Button>{' '}
+                <Link to={`/`}>
+                          <Button variant="success">Show home page Details</Button>{' '}
+                          </Link>
                 </div>
                 </div>
                 </div>

@@ -42,7 +42,7 @@ const FeaturedJobs = ({jobs}) => {
                              </Card.Body>
                             <Card.Footer>
                           <Link to={`job/${job.id}`}>
-                          <Button variant="info">View Details</Button>{' '}
+                          <Button variant="success">View Details</Button>{' '}
                           </Link>
                             </Card.Footer>
                         </Card>
@@ -51,7 +51,7 @@ const FeaturedJobs = ({jobs}) => {
 
             </Row>
             <div className="text-center">
-                <Button variant="info" className='text-center mx-auto '
+                <Button variant="success" className='text-center mx-auto '
                 onClick={handleSeeMore}
                 >{!seeAll?'ShowAll':'Show'}</Button>
                 </div>

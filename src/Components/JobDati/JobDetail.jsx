@@ -38,7 +38,7 @@ const JobDetail = () => {
              </div>
             <div className='style-card'>
           
-            <Card border="info" style={{ width: '26rem'}&&{height:'29rem'}}>
+            <Card border="success" style={{ width: '26rem'}&&{height:'29rem'}}>
         <Card.Header className='text-center'> <strong> Job Details</strong></Card.Header>
         <Card.Body>
           <Card.Text>
@@ -61,7 +61,7 @@ const JobDetail = () => {
           </Card.Text>
         </Card.Body>
        
-        <Button  onClick={handleApply} variant="info"> Apply Now</Button>
+        <Button  onClick={handleApply} variant="success"> Apply Now</Button>
       </Card>
             </div>
           
